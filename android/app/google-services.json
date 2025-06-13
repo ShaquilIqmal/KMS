@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "647510240409",
+    "project_id": "kms2-aaf35",
+    "storage_bucket": "kms2-aaf35.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:647510240409:android:9a434796cbfa1843e5dc08",
+        "android_client_info": {
+          "package_name": "com.example.kms2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoq6akNu5e0M8aRUlNsyrMRuMLyky3-8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

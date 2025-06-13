@@ -1,0 +1,75 @@
+
+{
+ "attendance": [
+        {
+            "yearID": "Year 5",
+            "attendanceHistory": [
+                {
+                    "childID": "S001",
+                    "records": [
+                        {"date": "2024-10-01", "status": "present"},
+                        {"date": "2024-10-02", "status": "absent"},
+                        {"date": "2024-10-15", "status": "absent"},
+                        {"date": "2024-10-16", "status": "present"}
+                    ]
+                }
+            ],
+            "attendanceRecord": [
+                {
+                    "childID": "S001",
+                    "totalDays": "2",
+                    "daysPresent": "1",
+                    "attendancePercentage": "50"
+                }
+            ]
+        }
+    ]
+  "child": {
+    "SectionA": {
+      "nameC": "string",
+      "genderC": "string",
+      "addressC": "string",
+      "dateOfBirthC": "date",
+      "yearID": "string", // (e.g., Year 4/5/6)
+      "myKidC": "int",
+      "religionC": "string"
+    },
+    "SectionB": {
+      "nameF": "string",
+      "icF": "int",
+      "incomeF": "double",
+      "addressF": "string",
+      "homeTelF": "int",
+      "handphoneF": "int",
+      "emailF": "string"
+    },
+    "SectionC": {
+      "medicalCondition": "string",
+      "doctorTel": "int",
+      "clinicHospital": "string"
+    },
+    "SectionD": {
+      "nameM": "string",
+      "telM": "int",
+      "relationshipM": "string"
+    },
+    "SectionE": {
+      "transportation": "string",
+      "pickupAddress": "string",
+      "dropAddress": "string"
+    },
+    "userId": "user_1"                // Reference to the parent in 'users' collection
+  },
+  "teacher": {
+    "teachers": {
+      "assignedClasses": ["Year 4", "Year 5"] // List of assigned class years
+      // Additional fields like name, contact, etc.
+    }
+  },
+  "parent": {
+    "users": {
+      "childIds": ["child_1", "child_2"] // List of child document IDs (references to 'child' collection)
+      // Additional fields like name, contact, etc.
+    }
+  }
+}
