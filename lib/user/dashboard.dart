@@ -611,7 +611,7 @@ class _DashboardPageState extends State<DashboardPage> {
                       padding:
                           EdgeInsets.only(left: 8.0), // Add padding to the left
                       child: Text(
-                        'Main Menu - ',
+                        'Main Menu (Hello) - ',
                         style: TextStyle(
                           fontSize: 17.0,
                           fontWeight: FontWeight.bold,
